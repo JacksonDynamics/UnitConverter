@@ -1,0 +1,26 @@
+body {
+    margin: 0 auto;
+    width: 550px;
+    background-color: #1c1c1c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    letter-spacing: -0.03em;
+}
+
+#header {
+    height: 285px;
+    background-color: #6943FF;
+    color: white;
+}
+
+.title {
+    line-height: 38px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.convert {
+    height: 83px;
+    width: 117px;
+    ;
+}
