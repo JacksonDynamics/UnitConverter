@@ -1,3 +1,13 @@
+:root {
+    --color-primary: #6943FF;
+    --color-secondary: #F4F4F4;
+    --color-heading: #FFFFFF;
+    --color-body: #3D3D3D;
+    --color-background: #1c1c1c;
+
+
+}
+
 body {
     margin: 0 auto;
     width: 550px;
