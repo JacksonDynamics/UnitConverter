@@ -8,29 +8,56 @@
 
 }
 
+html {
+    /* 62.5% makes default 16px = 10px.  Now rem can be in whole increments */
+    font-size: 62.5%;
+}
+
 body {
     margin: 0 auto;
     width: 550px;
-    background-color: #1c1c1c;
+    background-color: var(--color-background);
+    color: var(--color-body);
     font-family: Inter, 'Arial Narrow Bold', sans-serif;
-    font-style: normal;
-    letter-spacing: -0.03em;
+    font-size: 2.5rem;
+}
+
+#mainContent {
+    background-color: var(--color-secondary);
+    height: 729px;
+    text-align: center;
 }
 
 #header {
+    display: flex;
+    flex-direction: column;
     height: 285px;
     background-color: #6943FF;
     color: white;
 }
 
-.title {
+.headerTitle {
     line-height: 38px;
-    font-size: 28px;
-    text-align: center;
+    font-size: 3rem;
+    letter-spacing: -0.03rem;
+    padding-top: 33px;
+    border: 1px solid black;
 }
 
 .convert {
     height: 83px;
     width: 117px;
-    ;
+    align-content: center;
+}
+
+#convertBtn {
+    width: 117px;
+    height: 42px;
+    left: 217px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 24px;
 }
