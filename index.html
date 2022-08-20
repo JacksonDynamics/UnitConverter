@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Unit Converter</title>
@@ -15,19 +15,21 @@
     <main id="mainContent">
         <header id="header">
             <h1 class="headerTitle">Metric/Imperial Unit Conversion</h1>
-            <input class="convert" type="text">
+            <input id="convert" type="text">
             <button id="convertBtn">Convert</button>
         </header>
 
-        <div id="length">
+        <div class="results">
             <div class="titles">Length (Meter/Feet)</div>
             <div id="lengthConversion"></div>
         <div>
-        <div id="volume">
+
+        <div class="results">
             <div class="titles">Volume (Liters/Gallons)</div>
             <div id="volumeConversion"></div>
         </div>
-        <div id="mass">
+
+        <div class="results">
             <div class="titles">Mass (Kilograms/Pounds)</div>
             <div id="massConversion"></div>
         </div>

@@ -1,9 +1,10 @@
 :root {
-    --color-primary: #6943FF;
+    --color-primary: #4119e1;
     --color-secondary: #F4F4F4;
     --color-heading: #FFFFFF;
     --color-body: #3D3D3D;
     --color-background: #1c1c1c;
+    --color-border: #B295FF;
 
 
 }
@@ -31,8 +32,9 @@ body {
 #header {
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 285px;
-    background-color: #6943FF;
+    background-color: var(--color-primary);
     color: white;
 }
 
@@ -40,14 +42,21 @@ body {
     line-height: 38px;
     font-size: 3rem;
     letter-spacing: -0.03rem;
-    padding-top: 33px;
-    border: 1px solid black;
+    margin: 3.3rem 0 3rem;
+    text-shadow:0 0 5px #1c1c1c;
 }
 
-.convert {
+#convert {
     height: 83px;
     width: 117px;
+    background-color: var(--color-primary);
+    color: white;
+    border: 2px solid var(--color-border);
+    border-radius: 5px;
     align-content: center;
+    margin-bottom: 2.5rem;
+    text-align: center;
+    font-size: 6rem;
 }
 
 #convertBtn {
@@ -55,9 +64,19 @@ body {
     height: 42px;
     left: 217px;
     box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
     border-radius: 5px;
-    font-family: 'Inter';
+    font-family: Inter, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 24px;
 }
+
+.results {
+    height: 110px;
+    width: 500px;
+    margin: 36px auto;
+    border: 1px solid black;
+    background-color: var(--color-heading);
+}
+
