@@ -1,87 +1,93 @@
 :root {
-    --color-primary: #4119e1;
-    --color-secondary: #F4F4F4;
-    --color-heading: #FFFFFF;
-    --color-body: #3D3D3D;
-    --color-background: #1c1c1c;
-    --color-border: #B295FF;
-
-
+  --color-primary: #6943FF;
+  --color-secondary: #f4f4f4;
+  --color-heading: #ffffff;
+  --color-body: #3d3d3d;
+  --color-background: #1c1c1c;
+  --color-border: #b295ff;
 }
 
 html {
-    /* 62.5% makes default 16px = 10px.  Now rem can be in whole increments */
-    font-size: 62.5%;
+  /* 62.5% makes default 16px = 10px.  Now rem can be in whole increments */
+  font-size: 62.5%;
 }
 
 body {
-    margin: 20px auto;
-    width: 550px;
-    background-color: var(--color-background);
-    color: var(--color-body);
-    font-family: Inter, 'Arial Narrow Bold', sans-serif;
-    font-size: 2.5rem;
-    border: 3px solid var(--color-border);
-    border-radius: 5px;
+  margin: 20px auto;
+  width: 550px;
+  background-color: var(--color-background);
+  color: var(--color-body);
+  font-family: Inter, "Arial Narrow Bold", sans-serif;
+  font-size: 2.5rem;
+  border: 3px solid var(--color-border);
+  border-radius: 5px;
 }
 
 #mainContent {
-    background-color: var(--color-secondary);
-    height: 729px;
-    text-align: center;
+  background-color: var(--color-secondary);
+  height: 729px;
+  text-align: center;
 }
 
 #header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 285px;
-    background-color: var(--color-primary);
-    color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 285px;
+  background-color: var(--color-primary);
+  color: white;
 }
 
 .headerTitle {
-    line-height: 38px;
-    font-size: 3rem;
-    letter-spacing: -0.03rem;
-    margin: 3.3rem 0 3rem;
-    text-shadow:0 0 5px #1c1c1c;
+  line-height: 38px;
+  font-size: 3rem;
+  letter-spacing: -0.03rem;
+  margin: 3.3rem 0 3rem;
+  text-shadow: 0 0 5px #1c1c1c;
 }
 
 #convert {
-    height: 83px;
-    width: 117px;
-    background-color: var(--color-primary);
-    color: white;
-    border: 2px solid var(--color-border);
-    border-radius: 5px;
-    align-content: center;
-    margin-bottom: 2.5rem;
-    text-align: center;
-    font-size: 6rem;
+  height: 83px;
+  width: 117px;
+  background-color: var(--color-primary);
+  color: white;
+  border: 2px solid var(--color-border);
+  border-radius: 5px;
+  align-content: center;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  font-size: 6rem;
 }
 
 #convertBtn {
-    width: 117px;
-    height: 42px;
-    left: 217px;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-    border: none;
-    border-radius: 5px;
-    font-family: Inter, 'Arial Narrow Bold', sans-serif;
-    font-weight: 500;
-    font-size: 1.6rem;
-    line-height: 24px;
+  width: 117px;
+  height: 42px;
+  left: 217px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border: none;
+  border-radius: 5px;
+  font-family: Inter, "Arial Narrow Bold", sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+#hero {
+  /* border: 2px solid green; */
+  height: 444px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .results {
-    height: 110px;
-    width: 500px;
-    margin: 36px auto;
-    border: 1px solid black;
-    background-color: var(--color-heading);
+  height: 110px;
+  width: 500px;
+  background-color: var(--color-heading);
 }
 
 .titles {
-    margin: 31px 0 5px;
+  margin: 31px 0 5px;
 }
