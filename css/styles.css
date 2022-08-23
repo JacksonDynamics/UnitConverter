@@ -74,7 +74,7 @@ body {
 
 #hero {
   /* border: 2px solid green; */
-  height: 444px;
+  height: 430px;
   margin-top: 10px;
   display: flex;
   flex-direction: column;
@@ -85,9 +85,18 @@ body {
 .results {
   height: 110px;
   width: 500px;
+  border-top-left-radius: 5px;
   background-color: var(--color-heading);
+
 }
 
 .titles {
   margin: 31px 0 5px;
+}
+
+.conversion {
+  margin-top: 9px;
+  font-weight: 400px;
+  font-size: 1.4rem;
+  line-height: 20px;
 }
